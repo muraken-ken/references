@@ -267,6 +267,19 @@ end
 3. アルファベット順にソートする：ルーティングはファイルの上から順に有効になる
 4. 規模が大きくなったらルーティングファイルの分割を検討する
 
+## 7. 名前付きルート（pathヘルパー、urlヘルパー）について
+- ヘルパーの違い
+  - pathヘルパー：相対パス（ドメイン名以下）
+  - urlヘルパー：絶対パス（httpなどから始まるフルパス）
+  ```
+    root_path => '/'
+    root_url  => 'http://www.example.com/'
+  ```
+- 基本的な使い分け
+  - pathヘルパー：通常はこちらを使用する。（viewなど）
+  - urlヘルパー：redirect_toする場合のみ使用する。（主にController）  
+  HTTPの標準としては、リダイレクトのときに完全なURLが要求されるため
+
 ## 参考資料
 - [Railsガイド：ルーティング](https://railsguides.jp/routing.html)
 - [Railsのルーティングを極める(前編)](https://techracho.bpsinc.jp/baba/2020_11_18/15665)
