@@ -84,11 +84,11 @@ pryとpry-rails gemがインストール済み環境で使用可能
 |HTTP動詞|パス|コントローラ#アクション|目的|
 |---|---|---|---|
 |GET|/geocoder/new|geocoders#new|作成するためのHTMLフォームを返す|
-|POST|/geocoder|geocoder#create|作成する|
-|GET|/geocoder|geocoder#show|表示する|
-|GET|/geocoder/edit|geocoder#edit|編集用のHTMLフォームを1つ返す|
-|PATCH/PUT|/geocoder|geocoder#update|更新する|
-|DELETE|/geocoder|geocoder#destroy|削除する|
+|POST|/geocoder|geocoders#create|作成する|
+|GET|/geocoder|geocoders#show|表示する|
+|GET|/geocoder/edit|geocoders#edit|編集用のHTMLフォームを1つ返す|
+|PATCH/PUT|/geocoder|geocoders#update|更新する|
+|DELETE|/geocoder|geocoders#destroy|削除する|
 
 ### 4.3 個別設定
 - 記述内容
