@@ -54,8 +54,8 @@
 
 ### 4-2. コントローラーの作成
 ```
-  $ rails g controller <モデル名（複数形＋頭文字を大文字）>
-  $ rails g controller Users
+  $ bin/rails g controller <モデル名（複数形＋頭文字を大文字）>
+  $ bin/rails g controller Users
 ```
 
 ### 4-3. コントローラーの記述（最低限）
