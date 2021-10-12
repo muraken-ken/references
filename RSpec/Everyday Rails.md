@@ -298,3 +298,10 @@ FactoryBot.build(:user, first_name: nil) #属性をひとつだけ変える
 
 ## 8. RSpecテスト
 - Model Spec／Request spec／System specを中心に書いていく
+
+## 参考資料
+- [【初心者向け】テストコードの方針を考える（何をテストすべきか？どんなテストを書くべきか？）](https://qiita.com/jnchito/items/2a5d3e15761fd413657a)
+- [使えるRSpec入門・その1「RSpecの基本的な構文や便利な機能を理解する」](https://qiita.com/jnchito/items/42193d066bd61c740612)
+- [使えるRSpec入門・その2「使用頻度の高いマッチャを使いこなす」](https://qiita.com/jnchito/items/2e79a1abe7cd8214caa5)
+- [使えるRSpec入門・その3「ゼロからわかるモック（mock）を使ったテストの書き方」](https://qiita.com/jnchito/items/640f17e124ab263a54dd)
+- [使えるRSpec入門・その4「どんなブラウザ操作も自由自在！逆引きCapybara大辞典」](https://qiita.com/jnchito/items/607f956263c38a5fec24)
