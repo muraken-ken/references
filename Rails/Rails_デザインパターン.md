@@ -129,3 +129,10 @@ ActiveRecord::Base継承クラスのレコードを検証する責務を持つ
 - 再利用性のあるビューを、ビジネスロジックごとカプセル化する
   - 再利用が可能
 - ディレクトリ：`app/view_components`
+
+## 参考資料
+- [Railsのパターンとアンチパターン1: 概要編](https://techracho.bpsinc.jp/hachi8833/2021_01_04/101446)
+- [ailsのパターンとアンチパターン2: モデル編とマイグレーション](https://techracho.bpsinc.jp/hachi8833/2021_01_07/102392)
+- [Railsのパターンとアンチパターン3: ビュー編](https://techracho.bpsinc.jp/hachi8833/2021_09_30/112127)
+- [Railsのパターンとアンチパターン4: コントローラ編](https://techracho.bpsinc.jp/hachi8833/2021_10_05/112108)
+- [Railsのパターンとアンチパターン5: 一般的な問題と、その教訓](https://techracho.bpsinc.jp/hachi8833/2021_10_08/112144)
