@@ -181,5 +181,3 @@ RSpec Railsでは、優れたテスト方法を推奨するために考え抜か
       RSpecのFeature specでは、デフォルトでRack::Testのcapybaraドライバを使用しています。javascript対応のテストブラウザを使用したい場合は、capybaraの設定を管理する必要があります。長い間、seleniumのような高度な統合では、この点を修正するのが難しいことが証明されてきました。システム仕様のデフォルトはseleniumを使用しています。この設定の難しさは、あなたに代わってcapybaraとwebdriverをchromeで操作するrailsによって隠されています。
 
       そのため、Rails 5.1のユーザーには、完全なアプリケーション統合テストのためにFeature specよりもSystem specを書くことを推奨しています。
-
--    
