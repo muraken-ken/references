@@ -32,7 +32,7 @@
   end
 ```
 ```
- $ bin/rails db:migration
+ $ bin/rails db:migrate
  $ bin/rails db:rollback    // 元に戻す場合
 ```
 
