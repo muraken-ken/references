@@ -4,6 +4,7 @@
 - [Rails_セットアップ](Rails_セットアップ.md)
 - [Rails_ルーティング](Rails_ルーティング.md)
 - [Rails_静的ページの作成](Rails_静的ページの作成.md)
+- [Rails_namespaceでviewを切り替える](Rails_namespaceでviewを切り替える.md)
 - [Rails_マイグレーション](Rails_マイグレーション.md)
 - [Rails_モデル作成](Rails_モデル作成.md)
 - [BCryptの使い方](BCryptの使い方.md)
