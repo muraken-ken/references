@@ -23,7 +23,7 @@
     def change
       create_table :users do |t|
         t.string :email, null: false  # メールアドレス
-        t.string :hashed_password     # パスワード
+        t.string :password_digest     # パスワード
 
         t.timestamps
       end
